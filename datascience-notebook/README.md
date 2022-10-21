@@ -25,4 +25,5 @@ docker run \
         --label='maintainer=Jupyter Project <jupyter@googlegroups.com>' \
         --runtime=runc \
         jupyter/datascience-notebook \
-        start-notebook.sh```
+        start-notebook.sh
+```
