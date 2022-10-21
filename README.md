@@ -1,0 +1,3 @@
+Docker snippets including run commands...
+- datascience-notebook
+- postgis
