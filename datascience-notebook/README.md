@@ -55,7 +55,7 @@ sudo docker run \
         --env=JULIA_PKGDIR=/opt/julia \
         --env=JULIA_VERSION=1.8.2 \
         --workdir="/home/${NB_USER}" \
-        -v "/mnt/c/Users/marcl/OneDrive - URBALYON/docker/jupyter:/home${NB_USER}/work" \
+        -v "/mnt/c/Users/marcl/OneDrive - URBALYON/docker/jupyter:/home/${NB_USER}/work" \
         -p 10000:8888 \
         --restart=unless-stopped \
         --label='maintainer=Jupyter Project <jupyter@googlegroups.com>' \
