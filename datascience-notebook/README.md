@@ -1,6 +1,6 @@
 Original run command:
 
-```
+```sh
 docker run \
         --name=datascience-notebook \
         --hostname=c38c36f31434 \
