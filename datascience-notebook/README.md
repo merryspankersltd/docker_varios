@@ -1,4 +1,5 @@
-```docker run \
+```
+docker run \
         --name=datascience-notebook \
         --hostname=c38c36f31434 \
         --user=1000 \
