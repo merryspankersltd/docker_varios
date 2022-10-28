@@ -7,7 +7,7 @@ docker run \
   --restart unless-stopped \
   -e POSTGRES_PASSWORD=postgres \
   -e PGDATA=/var/lib/postgresql/data \
-  -v "c:\Users\some_user\OneDrive - ACME\docker_binds\postgres\pgdata:/var/lib/postgresql/data" \
+  -v "c:\Users\foo\OneDrive - ACME\docker_binds\postgres\pgdata:/var/lib/postgresql/data" \
   -d postgis/postgis
 ```
 
