@@ -1,3 +1,0 @@
-Docker snippets including run commands...
-- [datascience-notebook](https://github.com/merryspankersltd/docker_varios/tree/main/datascience-notebook)
-- [postgis](https://github.com/merryspankersltd/docker_varios/tree/main/postgis)
