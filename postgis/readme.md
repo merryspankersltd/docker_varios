@@ -1,6 +1,6 @@
 run from windows terminal (using windows notation for host bind folder)
 
-```sh
+```bat
 docker run `
   --name postgis `
   -p 5432:5432 `
