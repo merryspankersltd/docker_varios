@@ -12,6 +12,8 @@ docker run  `
          --env HOME=/home/foo `
          --workdir "/home/foo/work" `
          -v "c:\Users\foo\OneDrive - ACME\docker_binds\jupyter\work:/home/foo/work" `
+         -v "C:\Users\foo\OneDrive - ACME\data:/home/foo/data" `
          -p 10000:8888 `
          --restart unless-stopped `
+jupyter/notebook-datascience
 ```
